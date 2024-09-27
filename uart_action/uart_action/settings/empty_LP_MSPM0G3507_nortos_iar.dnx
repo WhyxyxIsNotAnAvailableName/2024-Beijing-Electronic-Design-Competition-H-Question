@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<settings>
+    <XdsDriver>
+        <xds110serialNo>MG350001</xds110serialNo>
+        <xds110foundProbes />
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <xdsResetStyle>0</xdsResetStyle>
+        <xdsResetStrategy>1</xdsResetStrategy>
+    </XdsDriver>
+    <TerminalIO>
+        <InputSource>1</InputSource>
+        <InputMode2>10</InputMode2>
+        <Filename>$PROJ_DIR$\TermIOInput.txt</Filename>
+        <InputEcho>1</InputEcho>
+        <ShowReset>0</ShowReset>
+        <InputEncodingICU>0</InputEncodingICU>
+        <OutputEncodingICU>0</OutputEncodingICU>
+    </TerminalIO>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <PlDriver>
+        <FirstRun>0</FirstRun>
+        <MemConfigValue>E:\iar\arm\config\debugger\TexasInstruments\MSPM0G3507.ddf</MemConfigValue>
+    </PlDriver>
+    <ArmDriver>
+        <EnableCache>0</EnableCache>
+        <EnforceMemoryConfiguration>1</EnforceMemoryConfiguration>
+    </ArmDriver>
+    <DebugChecksum>
+        <Checksum>1537669114</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <Disassembly>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <watch_formats>
+        <Fmt0>{W}42:A0	3	0</Fmt0>
+        <Fmt1>{W}42:A1	3	0</Fmt1>
+        <Fmt2>{W}42:A2	3	0</Fmt2>
+        <Fmt3>{W}42:A3	3	0</Fmt3>
+        <Fmt4>{W}42:A4	3	0</Fmt4>
+        <Fmt5>{W}42:A5	3	0</Fmt5>
+        <Fmt6>{W}42:A6	3	0</Fmt6>
+        <Fmt7>{W}42:A7	3	0</Fmt7>
+        <Fmt8>{W}42:dutyL	3	0</Fmt8>
+        <Fmt9>{W}42:dutyR	3	0</Fmt9>
+        <Fmt10>{W}42:task	3	0</Fmt10>
+    </watch_formats>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <PowerLog>
+        <GraphEnabled>0</GraphEnabled>
+        <LogEnabled>0</LogEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <Title_0>Energy</Title_0>
+        <Symbol_0>0 4 0</Symbol_0>
+        <Title_1>Voltage</Title_1>
+        <Symbol_1>0 4 0</Symbol_1>
+        <Title_2>Current</Title_2>
+        <Symbol_2>0 4 0</Symbol_2>
+        <LiveEnabled>0</LiveEnabled>
+        <LiveFile />
+    </PowerLog>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <Aliases>
+        <A0>_ "/home/developer/.cache/bazel/_bazel_developer/2ca1f4ebdc59348ffdc31d97a51a98d5/execroot/__main__/bazel-out/k8-opt/bin/source/ti/driverlib\dl_common.c" ""</A0>
+        <Count>1</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+    <PowerProbe>
+        <Frequency>10000</Frequency>
+        <Probe0>Current</Probe0>
+        <ProbeSetup0>0 1 1 2 0 0</ProbeSetup0>
+        <Probe1>Voltage</Probe1>
+        <ProbeSetup1>1 1 1 4 0 0</ProbeSetup1>
+        <Probe2>Energy</Probe2>
+        <ProbeSetup2>4 1 1 10 0 0</ProbeSetup2>
+    </PowerProbe>
+</settings>

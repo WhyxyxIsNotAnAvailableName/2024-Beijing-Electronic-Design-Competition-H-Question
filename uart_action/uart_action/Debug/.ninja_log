@@ -1,0 +1,10 @@
+# ninja log v5
+2072	2386	7442109670382372	build_ide.ninja	92c9b43e44fcbbec
+1	2070	7442109665068192	E:/iar_workspace/d_s/uart_action/uart_action/SysConfig_Generated_Files.ipcf	44596566b9ce83cb
+20	610	7442109676557934	E:/iar_workspace/d_s/uart_action/uart_action/Debug/Obj/iar_10373327311930743285.dir/startup_mspm0g350x_iar.o	18906d3369f9f747
+4	1348	7442154499628705	E:/iar_workspace/d_s/uart_action/uart_action/Debug/Obj/empty_12185268458818714744.dir/callback.o	450dd8b081182a11
+11	1573	7442154501893599	E:/iar_workspace/d_s/uart_action/uart_action/Debug/Obj/empty_12185268458818714744.dir/my_fun.o	d17b8ca0968b9b8c
+5	1438	7442109684731391	E:/iar_workspace/d_s/uart_action/uart_action/Debug/Obj/SysConfig Generated Files_5435349133262493662.dir/ti_msp_dl_config.o	422e9c008ab0981f
+19	1927	7442154505456918	E:/iar_workspace/d_s/uart_action/uart_action/Debug/Obj/empty_12185268458818714744.dir/Lcd.o	e5628b09f743e1f3
+15	2092	7442154507055130	E:/iar_workspace/d_s/uart_action/uart_action/Debug/Obj/empty_12185268458818714744.dir/empty.o	b8c8eb94b2c9b910
+2096	2386	7442154509843670	E:/iar_workspace/d_s/uart_action/uart_action/Debug/Exe/empty_LP_MSPM0G3507_nortos_iar.out	bfe94695d7adf4dc

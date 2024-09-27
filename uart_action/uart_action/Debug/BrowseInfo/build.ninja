@@ -1,0 +1,91 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = E$:\iar\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$out
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = E$:\iar\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  deps = gcc
+  description = IAR_NEW_TOOL+++INDEXER+++$out
+
+rule MAKEBROWSE
+  command = E$:\iar\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out
+
+rule PDBLINK
+  command = E$:\iar\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out
+
+
+
+#Build steps
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\iar_10373327311930743285.dir\startup_mspm0g350x_iar.xcl : COMPILER_XCL 
+    flags = E$:\iar_workspace\d_s\uart_action\uart_action\iar\startup_mspm0g350x_iar.c -D __MSPM0G3507__ -o E$:\iar_workspace\d_s\uart_action\uart_action\Debug\Obj\iar_10373327311930743285.dir --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M0+ --debug --silent -e --aeabi --thumb --diag_suppress=Pa050 -e --fpu=None --dlib_config E$:\iar\arm\inc\c\DLib_Config_Normal.h -I E$:\iar_workspace\d_s\uart_action\uart_action\ -I E$:\ti\mspm0_sdk_1_20_01_06/source/third_party/CMSIS/Core/Include\ -I E$:\ti\mspm0_sdk_1_20_01_06/source\ -On --vla --predef_macros E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\iar_10373327311930743285.dir\startup_mspm0g350x_iar.tmp
+    rspfile_name = E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\iar_10373327311930743285.dir\startup_mspm0g350x_iar.xcl.rsp
+    xclcommand = -source_file E$:\iar_workspace\d_s\uart_action\uart_action\iar\startup_mspm0g350x_iar.c -xcl_file E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\iar_10373327311930743285.dir\startup_mspm0g350x_iar.xcl -macro_file E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\iar_10373327311930743285.dir\startup_mspm0g350x_iar.tmp -icc_path E$:\iar\arm\bin\iccarm.exe
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\callback.xcl : COMPILER_XCL 
+    flags = E$:\iar_workspace\d_s\uart_action\uart_action\callback.c -D __MSPM0G3507__ -o E$:\iar_workspace\d_s\uart_action\uart_action\Debug\Obj\empty_12185268458818714744.dir --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M0+ --debug --silent -e --aeabi --thumb --diag_suppress=Pa050 -e --fpu=None --dlib_config E$:\iar\arm\inc\c\DLib_Config_Normal.h -I E$:\iar_workspace\d_s\uart_action\uart_action\ -I E$:\ti\mspm0_sdk_1_20_01_06/source/third_party/CMSIS/Core/Include\ -I E$:\ti\mspm0_sdk_1_20_01_06/source\ -On --vla --predef_macros E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\callback.tmp
+    rspfile_name = E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\callback.xcl.rsp
+    xclcommand = -source_file E$:\iar_workspace\d_s\uart_action\uart_action\callback.c -xcl_file E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\callback.xcl -macro_file E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\callback.tmp -icc_path E$:\iar\arm\bin\iccarm.exe
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\empty.xcl : COMPILER_XCL 
+    flags = E$:\iar_workspace\d_s\uart_action\uart_action\empty.c -D __MSPM0G3507__ -o E$:\iar_workspace\d_s\uart_action\uart_action\Debug\Obj\empty_12185268458818714744.dir --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M0+ --debug --silent -e --aeabi --thumb --diag_suppress=Pa050 -e --fpu=None --dlib_config E$:\iar\arm\inc\c\DLib_Config_Normal.h -I E$:\iar_workspace\d_s\uart_action\uart_action\ -I E$:\ti\mspm0_sdk_1_20_01_06/source/third_party/CMSIS/Core/Include\ -I E$:\ti\mspm0_sdk_1_20_01_06/source\ -On --vla --predef_macros E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\empty.tmp
+    rspfile_name = E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\empty.xcl.rsp
+    xclcommand = -source_file E$:\iar_workspace\d_s\uart_action\uart_action\empty.c -xcl_file E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\empty.xcl -macro_file E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\empty.tmp -icc_path E$:\iar\arm\bin\iccarm.exe
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\Lcd.xcl : COMPILER_XCL 
+    flags = E$:\iar_workspace\d_s\uart_action\uart_action\Lcd.c -D __MSPM0G3507__ -o E$:\iar_workspace\d_s\uart_action\uart_action\Debug\Obj\empty_12185268458818714744.dir --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M0+ --debug --silent -e --aeabi --thumb --diag_suppress=Pa050 -e --fpu=None --dlib_config E$:\iar\arm\inc\c\DLib_Config_Normal.h -I E$:\iar_workspace\d_s\uart_action\uart_action\ -I E$:\ti\mspm0_sdk_1_20_01_06/source/third_party/CMSIS/Core/Include\ -I E$:\ti\mspm0_sdk_1_20_01_06/source\ -On --vla --predef_macros E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\Lcd.tmp
+    rspfile_name = E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\Lcd.xcl.rsp
+    xclcommand = -source_file E$:\iar_workspace\d_s\uart_action\uart_action\Lcd.c -xcl_file E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\Lcd.xcl -macro_file E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\Lcd.tmp -icc_path E$:\iar\arm\bin\iccarm.exe
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\my_fun.xcl : COMPILER_XCL 
+    flags = E$:\iar_workspace\d_s\uart_action\uart_action\my_fun.c -D __MSPM0G3507__ -o E$:\iar_workspace\d_s\uart_action\uart_action\Debug\Obj\empty_12185268458818714744.dir --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M0+ --debug --silent -e --aeabi --thumb --diag_suppress=Pa050 -e --fpu=None --dlib_config E$:\iar\arm\inc\c\DLib_Config_Normal.h -I E$:\iar_workspace\d_s\uart_action\uart_action\ -I E$:\ti\mspm0_sdk_1_20_01_06/source/third_party/CMSIS/Core/Include\ -I E$:\ti\mspm0_sdk_1_20_01_06/source\ -On --vla --predef_macros E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\my_fun.tmp
+    rspfile_name = E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\my_fun.xcl.rsp
+    xclcommand = -source_file E$:\iar_workspace\d_s\uart_action\uart_action\my_fun.c -xcl_file E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\my_fun.xcl -macro_file E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\my_fun.tmp -icc_path E$:\iar\arm\bin\iccarm.exe
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\SysConfig$ Generated$ Files_5435349133262493662.dir\ti_msp_dl_config.xcl : COMPILER_XCL 
+    flags = E$:\iar_workspace\d_s\uart_action\uart_action\ti_msp_dl_config.c -D __MSPM0G3507__ -o "E$:\iar_workspace\d_s\uart_action\uart_action\Debug\Obj\SysConfig$ Generated$ Files_5435349133262493662.dir" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M0+ --debug --silent -e --aeabi --thumb --diag_suppress=Pa050 -e --fpu=None --dlib_config E$:\iar\arm\inc\c\DLib_Config_Normal.h -I E$:\iar_workspace\d_s\uart_action\uart_action\ -I E$:\ti\mspm0_sdk_1_20_01_06/source/third_party/CMSIS/Core/Include\ -I E$:\ti\mspm0_sdk_1_20_01_06/source\ -On --vla --predef_macros "E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\SysConfig$ Generated$ Files_5435349133262493662.dir\ti_msp_dl_config.tmp"
+    rspfile_name = E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\SysConfig$ Generated$ Files_5435349133262493662.dir\ti_msp_dl_config.xcl.rsp
+    xclcommand = -source_file E$:\iar_workspace\d_s\uart_action\uart_action\ti_msp_dl_config.c -xcl_file "E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\SysConfig$ Generated$ Files_5435349133262493662.dir\ti_msp_dl_config.xcl" -macro_file "E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\SysConfig$ Generated$ Files_5435349133262493662.dir\ti_msp_dl_config.tmp" -icc_path E$:\iar\arm\bin\iccarm.exe
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\iar_10373327311930743285.dir\startup_mspm0g350x_iar.pbi : INDEXER E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\iar_10373327311930743285.dir\startup_mspm0g350x_iar.xcl | E$:\iar_workspace\d_s\uart_action\uart_action\iar\startup_mspm0g350x_iar.c
+    flags = -out=E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\iar_10373327311930743285.dir\startup_mspm0g350x_iar.pbi -f E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\iar_10373327311930743285.dir\startup_mspm0g350x_iar.xcl
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\callback.pbi : INDEXER E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\callback.xcl | E$:\iar_workspace\d_s\uart_action\uart_action\callback.c
+    flags = -out=E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\callback.pbi -f E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\callback.xcl
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\empty.pbi : INDEXER E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\empty.xcl | E$:\iar_workspace\d_s\uart_action\uart_action\empty.c
+    flags = -out=E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\empty.pbi -f E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\empty.xcl
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\Lcd.pbi : INDEXER E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\Lcd.xcl | E$:\iar_workspace\d_s\uart_action\uart_action\Lcd.c
+    flags = -out=E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\Lcd.pbi -f E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\Lcd.xcl
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\my_fun.pbi : INDEXER E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\my_fun.xcl | E$:\iar_workspace\d_s\uart_action\uart_action\my_fun.c
+    flags = -out=E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\my_fun.pbi -f E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\my_fun.xcl
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\SysConfig$ Generated$ Files_5435349133262493662.dir\ti_msp_dl_config.pbi : INDEXER E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\SysConfig$ Generated$ Files_5435349133262493662.dir\ti_msp_dl_config.xcl | E$:\iar_workspace\d_s\uart_action\uart_action\ti_msp_dl_config.c
+    flags = "-out=E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\SysConfig$ Generated$ Files_5435349133262493662.dir\ti_msp_dl_config.pbi" -f "E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\SysConfig$ Generated$ Files_5435349133262493662.dir\ti_msp_dl_config.xcl"
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar.pbw : MAKEBROWSE E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar.pbd
+    flags = E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar.pbd -output E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar.pbw
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar_part0.pbi : PDBLINK E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\iar_10373327311930743285.dir\startup_mspm0g350x_iar.pbi | E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\callback.pbi
+    flags = -M E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar_part0.pbi E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\iar_10373327311930743285.dir\startup_mspm0g350x_iar.pbi E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\callback.pbi
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar_part1.pbi : PDBLINK E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\empty.pbi | E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\Lcd.pbi
+    flags = -M E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar_part1.pbi E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\empty.pbi E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\Lcd.pbi
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar_part2.pbi : PDBLINK E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\my_fun.pbi | E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\SysConfig$ Generated$ Files_5435349133262493662.dir\ti_msp_dl_config.pbi
+    flags = -M E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar_part2.pbi E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_12185268458818714744.dir\my_fun.pbi "E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\SysConfig$ Generated$ Files_5435349133262493662.dir\ti_msp_dl_config.pbi"
+
+build E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar.pbd : PDBLINK E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar_part0.pbi | E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar_part1.pbi $
+ E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar_part2.pbi
+    flags = -M E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar.pbd E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar_part0.pbi E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar_part1.pbi E$:\iar_workspace\d_s\uart_action\uart_action\Debug\BrowseInfo\empty_LP_MSPM0G3507_nortos_iar_part2.pbi
+

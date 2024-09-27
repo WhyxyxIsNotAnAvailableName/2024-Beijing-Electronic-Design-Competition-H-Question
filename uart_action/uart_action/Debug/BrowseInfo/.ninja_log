@@ -1,0 +1,80 @@
+# ninja log v5
+15	247	7440428170000000	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/empty.xcl	30bd41512f639f87
+239	284	7440428177292623	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/iar_10373327311930743285.dir/startup_mspm0g350x_iar.pbi	ec9c5143d81b5b30
+1	237	7440428170000000	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/iar_10373327311930743285.dir/startup_mspm0g350x_iar.xcl	60db47fc1fc83318
+2675	3300	7442073212684570	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbd	8ca3d7788f1c3e2f
+17	1878	7442073198440745	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/empty.pbi	d31929b63390d7fe
+3301	6401	7442073242519088	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbw	f2a0009cabedf366
+22	241	7440428170000000	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/SysConfig Generated Files_5435349133262493662.dir/ti_msp_dl_config.xcl	e827a6c6484c04be
+7	1847	7442073198143911	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/SysConfig Generated Files_5435349133262493662.dir/ti_msp_dl_config.pbi	ebb63f7063a137d3
+1920	2674	7442073206376735	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part2.pbi	19fbe3460319c3ca
+17	243	7440428170000000	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/callback.xcl	551881276315b45e
+20	231	7440428170000000	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/my_fun.xcl	f86450fe5f17d916
+14	1912	7442073198730736	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/my_fun.pbi	8249417122eafc59
+2	1906	7442073198628223	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/callback.pbi	f26ec6d8fc6e33ad
+1929	2672	7442073206376735	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part1.pbi	80242a285f0ee1a4
+1908	2395	7442073203646594	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part0.pbi	44b72a35e65dfcb1
+18	228	7440428170000000	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/Lcd.xcl	7340c632108495bd
+10	1927	7442073198983402	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/Lcd.pbi	1eb792515fd615c5
+6	1652	7442073470747132	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/Lcd.pbi	1eb792515fd615c5
+9	1676	7442073470966843	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/SysConfig Generated Files_5435349133262493662.dir/ti_msp_dl_config.pbi	ebb63f7063a137d3
+12	1693	7442073471096897	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/my_fun.pbi	8249417122eafc59
+2	1704	7442073471141982	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/callback.pbi	f26ec6d8fc6e33ad
+16	1743	7442073471782213	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/empty.pbi	d31929b63390d7fe
+1708	2182	7442073476203460	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part0.pbi	44b72a35e65dfcb1
+1700	2394	7442073478326516	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part2.pbi	19fbe3460319c3ca
+1744	2452	7442073478868572	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part1.pbi	80242a285f0ee1a4
+2454	3064	7442073485037134	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbd	8ca3d7788f1c3e2f
+3065	6145	7442073514548378	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbw	f2a0009cabedf366
+10	1947	7442074398405802	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/SysConfig Generated Files_5435349133262493662.dir/ti_msp_dl_config.pbi	ebb63f7063a137d3
+2	1986	7442074398571322	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/callback.pbi	f26ec6d8fc6e33ad
+13	1992	7442074398571322	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/my_fun.pbi	8249417122eafc59
+7	1999	7442074398677734	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/Lcd.pbi	1eb792515fd615c5
+18	2003	7442074398952840	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/empty.pbi	d31929b63390d7fe
+3	474	7442074455775678	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part0.pbi	44b72a35e65dfcb1
+8	666	7442074457674407	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part2.pbi	19fbe3460319c3ca
+11	742	7442074458391518	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part1.pbi	80242a285f0ee1a4
+743	1362	7442074464688508	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbd	8ca3d7788f1c3e2f
+1364	4512	7442074494919370	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbw	f2a0009cabedf366
+3	1482	7442075078879900	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/empty.pbi	d31929b63390d7fe
+1484	2124	7442075085355011	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part1.pbi	80242a285f0ee1a4
+2126	2749	7442075091608208	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbd	8ca3d7788f1c3e2f
+2751	5701	7442075119936777	E:/iar_workspace/d_s/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbw	f2a0009cabedf366
+50	655	7442109430000000	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/Lcd.xcl	aa6e7a7b31a90dc2
+54	661	7442109430000000	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/empty.xcl	c4d46d9d0b493590
+58	667	7442109430000000	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/SysConfig Generated Files_5435349133262493662.dir/ti_msp_dl_config.xcl	311e69d627300397
+63	674	7442109430000000	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/my_fun.xcl	324087e08ac3b9b5
+1	680	7442109430000000	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/iar_10373327311930743285.dir/startup_mspm0g350x_iar.xcl	998d12835173db7b
+46	687	7442109430000000	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/callback.xcl	a6799a353ae7f785
+683	870	7442109434596042	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/iar_10373327311930743285.dir/startup_mspm0g350x_iar.pbi	f1fe8ed8f455bc68
+663	2402	7442109449977604	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/empty.pbi	20b5eb9898a660b0
+689	2426	7442109450177967	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/callback.pbi	9b5a61142ed54921
+670	2444	7442109450407103	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/SysConfig Generated Files_5435349133262493662.dir/ti_msp_dl_config.pbi	a1241929a4089b75
+677	2477	7442109450733025	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/my_fun.pbi	88f1f0f88311b0fd
+658	2502	7442109450964217	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/Lcd.pbi	2c385f9ff5c65f6f
+2428	2916	7442109455159379	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part0.pbi	6111fdf646944f38
+2480	3193	7442109457928959	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part2.pbi	c420c9d494392e45
+2504	3224	7442109458239052	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part1.pbi	adacecd7ef1584c0
+3225	3888	7442109464844618	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbd	4f7c22d3cf1bafe
+3890	7702	7442109501600268	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbw	808c650c3c89dc6e
+4	1691	7442123593479331	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/my_fun.pbi	88f1f0f88311b0fd
+1693	2411	7442123600724693	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part2.pbi	c420c9d494392e45
+2415	3199	7442123608629421	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbd	4f7c22d3cf1bafe
+3201	6848	7442123643824675	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbw	808c650c3c89dc6e
+3	1544	7442124016168017	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/my_fun.pbi	88f1f0f88311b0fd
+1546	2207	7442124022823764	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part2.pbi	c420c9d494392e45
+2209	2868	7442124029423133	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbd	4f7c22d3cf1bafe
+2870	6198	7442124061848718	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbw	808c650c3c89dc6e
+2	1533	7442126613103099	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/my_fun.pbi	88f1f0f88311b0fd
+1535	2211	7442126619944923	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part2.pbi	c420c9d494392e45
+2213	2881	7442126626615514	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbd	4f7c22d3cf1bafe
+2883	6231	7442126658798596	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbw	808c650c3c89dc6e
+12	1714	7442154528822470	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/empty.pbi	20b5eb9898a660b0
+9	1722	7442154528952647	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/callback.pbi	9b5a61142ed54921
+3	1763	7442154529360148	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/Lcd.pbi	2c385f9ff5c65f6f
+15	1779	7442154529531117	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_12185268458818714744.dir/my_fun.pbi	88f1f0f88311b0fd
+1724	2242	7442154534242937	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part0.pbi	6111fdf646944f38
+1781	2559	7442154537329338	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part2.pbi	c420c9d494392e45
+1768	2561	7442154537329338	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar_part1.pbi	adacecd7ef1584c0
+2563	3243	7442154544211793	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbd	4f7c22d3cf1bafe
+3244	6668	7442154577496813	E:/iar_workspace/d_s/uart_action/uart_action/Debug/BrowseInfo/empty_LP_MSPM0G3507_nortos_iar.pbw	808c650c3c89dc6e

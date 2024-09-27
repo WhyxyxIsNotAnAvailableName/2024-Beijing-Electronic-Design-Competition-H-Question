@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>E:\iar_workspace\d_s\uart_action\uart_action\Debug\Exe\empty_LP_MSPM0G3507_nortos_iar.out</Path>
+            <Output>
+                <Path>E:\iar_workspace\d_s\uart_action\uart_action\Debug\List\empty_LP_MSPM0G3507_nortos_iar.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>
